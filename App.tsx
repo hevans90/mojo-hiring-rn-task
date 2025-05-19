@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { Image, Linking, StyleSheet, Text, View } from 'react-native';
+import 'react-native-get-random-values'; // <-- polyfills the 'crypto' global that is usually available on the window object in a browser
 import Footer from './components/Footer';
 
 export default function App() {
